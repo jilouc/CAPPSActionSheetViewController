@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/jilouc/CAPPSActionSheetViewController'
   s.authors = { 'Jean-Luc Dagon' => 'jldagon@cocoapps.fr'}
   s.source = { :git => 'https://github.com/jilouc/CAPPSActionSheetViewController.git', :tag => '1.0' }
+  s.source_files = '*.{h,m}'
 
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
