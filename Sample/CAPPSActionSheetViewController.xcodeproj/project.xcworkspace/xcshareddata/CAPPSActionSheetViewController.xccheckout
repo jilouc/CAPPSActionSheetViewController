@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F1AC301-1AFE-4425-BCB9-6CCE019AF184</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CAPPSActionSheetViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0BCA0575-50DE-4B82-A6BB-8A03DB3EDB54</key>
+		<string>https://github.com/jilouc/CAPPSActionSheetViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample/CAPPSActionSheetViewController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0BCA0575-50DE-4B82-A6BB-8A03DB3EDB54</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jilouc/CAPPSActionSheetViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0BCA0575-50DE-4B82-A6BB-8A03DB3EDB54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BCA0575-50DE-4B82-A6BB-8A03DB3EDB54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CAPPSActionSheetViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
