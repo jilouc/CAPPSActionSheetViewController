@@ -172,7 +172,9 @@
 {
     _buttonsTintColor = tintColor;
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
-    [self.view setTintColor:tintColor];
+    if ([self.view respondsToSelector:@selector(setTintColor:)]) {
+        [self.view setTintColor:tintColor];
+    }
 #endif
     [self updateButtons];
 }
