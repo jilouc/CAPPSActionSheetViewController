@@ -77,7 +77,7 @@
     _buttonsContainerView.backgroundColor = _backgroundColor;
     [_sheetView addSubview:_buttonsContainerView];
     
-    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(_sheetView.frame) - 20, 30)];
+    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, CGRectGetWidth(_sheetView.frame) - 20, 30)];
     _titleLabel.backgroundColor = [UIColor clearColor];
     _titleLabel.textAlignment = NSTextAlignmentCenter;
     _titleLabel.textColor = [UIColor colorWithWhite:0.54f alpha:1.f];
