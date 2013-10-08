@@ -271,6 +271,9 @@
     if (buttonBlock) {
         buttonBlock();
     }
+    if (_commonButtonBlock) {
+        self.commonButtonBlock(btn.tag);
+    }
     [self dismiss:nil];
 }
 

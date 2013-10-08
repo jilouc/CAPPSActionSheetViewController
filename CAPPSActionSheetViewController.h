@@ -38,6 +38,7 @@
 @property (nonatomic, strong) UIColor *modalBackgroundColor;
 @property (nonatomic, strong) UIColor *backgroundColor;
 
+@property (nonatomic, copy) void(^commonButtonBlock)(NSInteger buttonIndex);
 @property (nonatomic, copy) void(^cancelBlock)();
 
 - (void)addButtonWithTitle:(NSString *)title;
