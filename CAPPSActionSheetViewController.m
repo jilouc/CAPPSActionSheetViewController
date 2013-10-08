@@ -266,15 +266,16 @@
 
 - (void)buttonTapped:(UIButton *)btn
 {
-    NSDictionary *buttonInfo = _internalButtons[@(btn.tag)];
-    void(^buttonBlock)() = buttonInfo[@"block"];
-    if (buttonBlock) {
-        buttonBlock();
-    }
-    if (_commonButtonBlock) {
-        self.commonButtonBlock(btn.tag);
-    }
-    [self dismiss:nil];
+    [self dismiss:^{
+        NSDictionary *buttonInfo = _internalButtons[@(btn.tag)];
+        void(^buttonBlock)() = buttonInfo[@"block"];
+        if (buttonBlock) {
+            buttonBlock();
+        }
+        if (_commonButtonBlock) {
+            self.commonButtonBlock(btn.tag);
+        }
+    }];
 }
 
 #pragma mark - Present & Dismiss
